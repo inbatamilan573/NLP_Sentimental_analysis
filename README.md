@@ -10,7 +10,7 @@ The NLP Sentiment Analysis Project is an ambitious endeavor that focuses on coll
 
 # Project Highlights:
 
-Extensive Data Collection: The project involved the collection and processing of a staggering 33 lakhs (3.3 million) Amazon reviews, making it one of the largest datasets used for sentiment analysis. This extensive dataset allows for a comprehensive analysis of sentiments expressed by users.
+Extensive Data Collection: The project involved the collection and processing of a staggering 33 lakhs (3.3 million) of Amazon reviews, making it one of the largest datasets used for sentiment analysis. This extensive dataset allows for a comprehensive analysis of sentiments expressed by users.
 
 Data Preprocessing: To ensure data quality and consistency, the dataset underwent rigorous data preprocessing. Techniques such as text cleaning, tokenization, and feature engineering were employed to prepare the data for analysis.
 
@@ -21,5 +21,7 @@ Real-time Sentiment Analysis: To make sentiment analysis accessible and user-fri
 # Technologies and Tools Used:
 
 Python: The primary programming language for data analysis, machine learning, and web application development.
+
 NLP Libraries: Utilized Natural Language Processing libraries for text preprocessing and feature engineering.
+
 Dash: A web application framework used to build the real-time user interface for sentiment analysis.

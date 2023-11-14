@@ -10,13 +10,17 @@ The NLP Sentiment Analysis Project is an ambitious endeavor that focuses on coll
 
 # Project Highlights:
 
-Extensive Data Collection: The project involved the collection and processing of a staggering 33 lakhs (3.3 million) of Amazon reviews, making it one of the largest datasets used for sentiment analysis. This extensive dataset allows for a comprehensive analysis of sentiments expressed by users.
+# Extensive Data Collection: 
+The project involved the collection and processing of a staggering 33 lakhs (3.3 million) of Amazon reviews, making it one of the largest datasets used for sentiment analysis. This extensive dataset allows for a comprehensive analysis of sentiments expressed by users.
 
-Data Preprocessing: To ensure data quality and consistency, the dataset underwent rigorous data preprocessing. Techniques such as text cleaning, tokenization, and feature engineering were employed to prepare the data for analysis.
+# Data Preprocessing: 
+To ensure data quality and consistency, the dataset underwent rigorous data preprocessing. Techniques such as text cleaning, tokenization, and feature engineering were employed to prepare the data for analysis.
 
-High Accuracy Sentiment Analysis: The project's primary achievement is a highly accurate sentiment analysis model that boasts an impressive 87% accuracy rate. This accuracy rate demonstrates the effectiveness of the model in categorizing reviews as positive or negative.
+# High Accuracy Sentiment Analysis: 
+The project's primary achievement is a highly accurate sentiment analysis model that boasts an impressive 87% accuracy rate. This accuracy rate demonstrates the effectiveness of the model in categorizing reviews as positive or negative.
 
-Real-time Sentiment Analysis: To make sentiment analysis accessible and user-friendly, a real-time user interface was created using Dash. Users can input text, and the system provides instant sentiment predictions, making it a valuable tool for a wide range of applications.
+# Real-time Sentiment Analysis:
+To make sentiment analysis accessible and user-friendly, a real-time user interface was created using Dash. Users can input text, and the system provides instant sentiment predictions, making it a valuable tool for a wide range of applications.
 
 # Technologies and Tools Used:
 

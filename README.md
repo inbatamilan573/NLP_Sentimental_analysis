@@ -1,6 +1,6 @@
 # NLP_Sentimental_analysis
 An NLP project: Analyzing 3.3M Amazon reviews. Achieved 87% accuracy. Real-time sentiment analysis with a user-friendly Dash interface.
-
+data set link: https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/
 # Project Overview:
 
 The NLP Sentiment Analysis Project is an ambitious endeavor that focuses on collecting, processing, and analyzing a massive dataset of Amazon reviews to determine the sentiment expressed in each review. With the goal of achieving accurate and reliable sentiment predictions, this project leverages advanced Natural Language Processing (NLP) techniques, data preprocessing, and machine learning.

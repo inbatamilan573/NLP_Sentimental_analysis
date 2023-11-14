@@ -1,6 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue oct 24 22:19:19 2023
+
+@author: Inbatamilan Balasubramanian
+"""
 import dash
 import dash_html_components as html
-import dash_core_components as dcc
+from dash import dcc as dcc
 import dash_bootstrap_components as dbc
 import webbrowser
 import pandas as pd
@@ -21,9 +27,9 @@ def load_scrappedReviews():
 
 
 def check_review(reviewText):
-    file=open("pickle_model_final.pkl","rb") 
+    file=open("F:/Forsk/model_dumping.pkl","rb") 
     model_from_pickel=pickle.load(file)
-    feature=pickle.load(open("features_final.pkl","rb"))
+    feature=pickle.load(open("F:/Forsk/model_features.pkl","rb"))
     
     from sklearn.feature_extraction.text import TfidfVectorizer
 
@@ -79,6 +85,7 @@ def review_update(n_clicks,values):
     print("Value = ", str(values))
     
     if n_clicks is not None and n_clicks > 0:
+        print(values)
         response = check_review(values)
         print(response)
         if (response[0] == 0):
@@ -115,3 +122,33 @@ def main():
 #calling the main function
 if __name__=='__main__':
     main()
+
+#I ordered a pair of earrings and was pleasantly surprised. The delivery was quick, and the earrings are even more gorgeous in person. I'm in love with them!
+
+#This necklace is a total letdown. The chain feels cheap, and the pendant tarnished within a week. Not worth the price.
+
+#I was pretty amazed by the store when I walked in. The variety of top designers was an additional plus. I found a nice diamond necklace for my wife that she wears all the time. I suggest that you check this place out before making a purchase.
+
+#The packaging was damaged when I received my order, and the earrings inside were scratched. Very disappointed with the condition they arrived in.
+
+#The necklace I got as a gift is just okay. It's not as impressive as I'd hoped, but it's the thought that counts, I guess.
+
+#The customer service was fantastic! They helped me find the perfect engagement ring, and it's absolutely stunning. My fiancee is over the moon!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
